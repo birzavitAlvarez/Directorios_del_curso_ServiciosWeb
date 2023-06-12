@@ -1,0 +1,32 @@
+GET http://localhost:8080/demo/all
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Birza
+&email=birza@idat.edu.pe
+###
+
+GET http://localhost:8080/demo/ver/102
+
+###
+
+PUT http://localhost:8080/demo/edit
+Content-Type: application/x-www-form-urlencoded
+
+id=102
+&name=Birza IDAT
+&email=birza-idat@idat.edu.pe
+
+###
+
+DELETE http://localhost:8080/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=52
+
+###
+
+GET http://localhost:8080/demo/get/report
